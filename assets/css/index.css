@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url("global.css");
+body {
+  background-color: deeppink;
+}
+
+#myAlertModal .modal-dialog .modal-content {
+  --bs-modal-bg: #fff5 !important;
+  backdrop-filter: blur(8px);
+}
+
+#maincontainer {
+  background-color: #e5e5e5aa;
+  width: 24rem;
+  max-width: calc(100dvw - 20px);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: .65rem;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px 0px rgba(100,100,100,0.75);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(100,100,100,0.75);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(100,100,100,0.75);
+}
+
+#maincontainer p:not(:first-child) {
+  margin: 0;
+}
+
+#sbList {
+  text-align: left;
+}

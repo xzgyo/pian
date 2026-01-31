@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>深夜一个人在家</title>
+    <!-- Import Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- End Import Bootstrap -->
+    <!-- Import JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- End Import JQuery -->
+    <!-- Import Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+    <!-- End Import Style Sheet -->
+    <!-- Import JavaScript File -->
+    <script type="text/javascript" src="assets/js/global.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <!-- End Import JavaScript File -->
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary" id="topnav">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">深夜无聊治愈神器 —— 导航页</span><!--深夜无聊治愈神器-->
+      </div>
+    </nav>
+    <div class="card" id="maincontainer">
+      <p class="h3">为深夜失眠感到无聊孤独困惑？</p>
+      <hr style="margin: 0 0 10px 0;"/>
+      <p class="h6">不妨试试以下手段：</p>
+      <ul id="sbList">
+        <li>日本精神小妹&nbsp;<a href="midnight_wuliao.html">点击前往👉</a></li>
+        <li>欧美动作片&nbsp;<a href="midnight_wuliao.html">点击前往👉🏻</a></li>
+        <li>中韩混血儿&nbsp;<a href="midnight_wuliao.html">点击前往👉🏼</a></li>
+        <li>中东土豪自拍&nbsp;<a href="midnight_wuliao.html">点击前往👉🏽</a></li>
+        <li>印度阿三后宫&nbsp;<a href="midnight_wuliao.html">点击前往👉🏾</a></li>
+        <li>管教黑人奴隶&nbsp;<a href="midnight_wuliao.html">点击前往👉🏿</a></li>
+      </ul>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myAlertModal">
+        OK
+      </button>
+    </div>
+    <!-- 点OK后第一个弹窗 -->
+    <div class="modal fade" id="myAlertModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="myAlertModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="myAlertModalLabel">Alert</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="doNotCloseAlert(this, true)"></button>
+          </div>
+          <div class="modal-body">
+            <p>⚠️--- W A R N I N G ---⚠️</p>
+            <p>🔞前方你将心跳加速，请再次确认是否继续🔞</p>
+            <p>🚨友情提示：请调👇🏻低🔅亮度以便起飞🛫✈️</p>
+            <p>🚨前方高能🚨&emsp;🚨前方高能🚨</p>
+            <p>🫵你将心跳❤️加速💓</p>
+            <p>⚠️--- W A R N I N G ---⚠️</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="doNotCloseAlert(this, true)">关闭</button>
+            <a href="midnight_wuliao.html" class="btn btn-primary">立即前往观看</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 叉掉第一个弹窗后弹的弹窗 -->
+    <div class="modal fade" id="myAlertModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="myAlertModal2Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="myAlertModal2Label">真的要离开吗？</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" disabled>确认关闭(btn-disabled)</button>
+            <a href="midnight_wuliao.html" class="btn btn-primary">手滑了，立即前往观看精彩内容👉</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>
