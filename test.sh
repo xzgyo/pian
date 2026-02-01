@@ -6,4 +6,7 @@ docker run -it \
   debian:13
 
 # run in docker
-apt update -y && apt upgrade -y && apt install nginx -y && nginx
+apt update -y && apt upgrade -y && apt install nano nginx -y
+nano /etc/nginx/sites-enabled/default
+# 把端口改成8080
+nginx
