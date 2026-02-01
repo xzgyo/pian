@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>深夜一个人在家</title>
     <!-- Import Bootstrap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- End Import Bootstrap -->
     <!-- Import JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@4.0.0/dist/jquery.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    -->
+    <script type="text/javascript" src="assets/vendor/jquery/jquery.min.js"></script>
     <!-- End Import JQuery -->
     <!-- Import Style Sheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
@@ -23,7 +30,7 @@
   <body>
     <nav class="navbar bg-body-tertiary" id="topnav">
       <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">深夜无聊治愈神器 —— 导航页</span><!--深夜无聊治愈神器-->
+        <span class="navbar-brand mb-0 h1">深夜无聊治愈神器 —— 导航页</span>
       </div>
     </nav>
     <div class="card" id="maincontainer">
@@ -39,7 +46,7 @@
         <li>管教黑人奴隶&nbsp;<a href="midnight_wuliao.html">点击前往👉🏿</a></li>
       </ul>
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myAlertModal">
-        OK
+        点击查看更多👉
       </button>
     </div>
     <!-- 点OK后第一个弹窗 -->
@@ -47,7 +54,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="myAlertModalLabel">Alert</h1>
+            <h1 class="modal-title fs-5" id="myAlertModalLabel">⚠️温馨提示⚠️</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="doNotCloseAlert(this, true)"></button>
           </div>
           <div class="modal-body">
@@ -70,15 +77,15 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="myAlertModal2Label">真的要离开吗？</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h1 class="modal-title fs-5" id="myAlertModal2Label">😭真的要离开吗(悲)？</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="$(this).css('display', 'none');"></button>
           </div>
           <div class="modal-body">
             <p class="h3">😭确定要划走吗😭</p>
             <p>这么精彩的内容真的不看一看吗，啊喂！</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" disabled>确认关闭(disabled)</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="$(this).css('display', 'none');">确认关闭</button>
             <a href="midnight_wuliao.html" class="btn btn-primary">手滑了，立即前往观看精彩内容👉</a>
           </div>
         </div>

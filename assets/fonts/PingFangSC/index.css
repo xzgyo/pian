@@ -1,24 +1,24 @@
 @charset "UTF-8";
 /* 苹方-简 极细体 */
 @font-face {
-    font-family: 'PingFangSC';
-    src: url('./PingFangSC-Ultralight.woff2') format('woff2');
+    font-family: 'PingFang SC';
+    src: url('./PingFang SC-Ultralight.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
 /* 苹方-简 纤细体 */
 @font-face {
-    font-family: 'PingFangSC';
-    src: url('./PingFangSC-Thin.woff2') format('woff2');
+    font-family: 'PingFang SC';
+    src: url('./PingFang SC-Thin.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 /* 苹方-简 细体 */
 @font-face {
-    font-family: 'PingFangSC';
-    src: url('./PingFangSC-Light.woff2') format('woff2');
+    font-family: 'PingFang SC';
+    src: url('./PingFang SC-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -26,8 +26,8 @@
 
 /* 苹方-简 常规体 */
 @font-face {
-    font-family: 'PingFangSC';
-    src: url('./PingFangSC-Regular.woff2') format('woff2');
+    font-family: 'PingFang SC';
+    src: url('./PingFang SC-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -35,8 +35,8 @@
 
 /* 苹方-简 中黑体 */
 @font-face {
-    font-family: 'PingFangSC';
-    src: url('./PingFangSC-Medium.woff2') format('woff2');
+    font-family: 'PingFang SC';
+    src: url('./PingFang SC-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -44,8 +44,8 @@
 
 /* 苹方-简 中粗体 */
 @font-face {
-    font-family: 'PingFangSC';
-    src: url('./PingFangSC-Semibold.woff2') format('woff2');
+    font-family: 'PingFang SC';
+    src: url('./PingFang SC-Semibold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;

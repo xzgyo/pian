@@ -5,7 +5,7 @@ body {
 }
 
 #myAlertModal .modal-dialog .modal-content {
-  --bs-modal-bg: #fff5 !important;
+  --bs-modal-bg: #fff6 !important;
   backdrop-filter: blur(8px);
 }
 
@@ -15,10 +15,11 @@ body {
   max-width: calc(100dvw - 20px);
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: calc(50% + 25px);
   transform: translate(-50%, -50%);
-  padding: .65rem;
+  padding: 1rem 1.35rem 1.05rem 1.35rem;
   box-sizing: border-box;
+  border-radius: 2.375rem;
   box-shadow: 0px 0px 8px 0px rgba(100,100,100,0.75);
   -webkit-box-shadow: 0px 0px 8px 0px rgba(100,100,100,0.75);
   -moz-box-shadow: 0px 0px 8px 0px rgba(100,100,100,0.75);
@@ -30,4 +31,20 @@ body {
 
 #sbList {
   text-align: left;
+}
+
+#myAlertModal2 .modal-content > div {
+  border: none;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
