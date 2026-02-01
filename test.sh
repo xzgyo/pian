@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 docker run -it \
   --name pian \
-  -p 8080:80 \
+  -p 8080:8080 \
   -v /home/zhang/Desktop/pian:/var/www/html/pian:ro \
   debian:13
 
