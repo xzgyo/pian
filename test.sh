@@ -2,7 +2,7 @@
 docker run -it \
   --name pian \
   -p 8080:8080 \
-  -v /home/zhang/Desktop/pian:/var/www/html/pian:ro \
+  -v /mnt/Data/Xzgyo/Project/pian:/var/www/html/pian:ro \
   debian:13
 
 # run in docker
